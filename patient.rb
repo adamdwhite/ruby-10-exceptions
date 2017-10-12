@@ -9,7 +9,6 @@ class Patient
 
   def patient_status(status)
     raise ArgumentError,"Argument is not a string" unless status.is_a? String
-
     @status = status
   end
 
